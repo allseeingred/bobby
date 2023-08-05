@@ -41,7 +41,7 @@ dependencies {
 	include("io.leangen.geantyref:geantyref:$geantyrefVersion")
 	include("com.typesafe:config:$hoconVersion")
 
-	modCompileOnly("maven.modrinth:sodium:$sodiumVersion")
+	modImplementation("maven.modrinth:sodium:$sodiumVersion")
 	modCompileOnly("maven.modrinth:starlight:$starlightVersion")
 	modCompileOnly("ca.stellardrift:confabricate:$confabricateVersion")
 	modImplementation("me.shedaniel.cloth:cloth-config-fabric:$clothConfigVersion")
